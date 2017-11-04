@@ -6,7 +6,14 @@ my_variable = 56
 string_variable = "hello"
 single_quotes = 'strings can have single quotes'
 
-print(my_variable)
-print(string_variable)
-print("hello, world!")
-print(123)
+#print(my_variable)
+#print(string_variable)
+#print("hello, world!")
+#print(123)
+
+##
+# methods should always be actions
+def  my_print_method():
+    print("hello")
+    print("world")
+    

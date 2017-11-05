@@ -1,18 +1,28 @@
-# what we send when going to web server
-GET / HTTP/1.1
-Host: www.google.com
+# HTTP Verbs
 
-POST
-DELETE
-PUT
-OPTIONS
-HEAD
-etc
+ This is what we send when going to web server
 
-verb           Meaning                               Example
-GET          Retrieve something              GET /item/1
-POST        Receive data, and                 POST /item  often json { 'name': 'Chair', 'price': 9.99 }
-                use it
-PUT           Make sure something            PUT /item often jason { 'name': 'Chair', 'price': 7.99 }
-                  is there
-DELETE    Remove something
+_GET / HTTP/1.1
+Host: www.google.com_
+
+verb   | Meaning                      | Example
+-------|------------------------------|-------------
+GET    | Retrieve something           | GET /item/1
+POST   | Receive data and use it      | POST /item
+PUT    | Make sure something is there | PUT /item
+DELETE | Remove something             | DELETE /item
+
+
+REST  
+* It's a way of thinking about how a web server responds to your requests
+* It doesn't respond with just data
+* It responds with resources
+
+Resources?
+* Similar to object-oriented programming
+* Think of the server as having resources, and each is able to interact with the
+    pertinent request
+
+col1|col1|col3
+--|---|--
+val1|val2|val3
